@@ -2,7 +2,8 @@
 package exceptionsExercise1
 
 fun main() {
-  println("Can't be converted to double: ???")
+  println("Can't be converted to double: 1,2")
+  println("Can't be converted to double: 1.2e0")
 
-  // TODO
+
 }

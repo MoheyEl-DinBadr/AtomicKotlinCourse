@@ -3,10 +3,10 @@ package propertyAccessorsExercise4
 import atomictest.eq
 
 class AccessCounter {
-
+  private var count = 0
 
   val accesses: Int
-    get() = TODO()
+    get() = ++count
 }
 
 fun main() {

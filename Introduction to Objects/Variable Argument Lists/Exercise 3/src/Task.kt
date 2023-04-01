@@ -1,9 +1,10 @@
 // Varargs/Task3.kt
 package variableArgumentListsExercise3
 import atomictest.eq
+import kotlin.math.ceil
 
 fun listOfChunks(size: Int, vararg elements: String): List<List<String>> {
-  TODO()
+  return elements.toList().chunked(size)
 }
 
 fun main() {

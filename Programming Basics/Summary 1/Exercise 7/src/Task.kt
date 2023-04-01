@@ -5,7 +5,12 @@ fun countDigits(number: Int, digit: Int): Int {
   var worker = number
   var occurrences = 0
   while (worker > 0) {
-    TODO()
+    var strWorker = worker.toString()
+    if (strWorker[0].digitToInt() === digit){
+      occurrences++;
+    }
+    if (strWorker.length === 1) break
+    worker = strWorker.substring(1).toInt()
   }
   return occurrences
 }

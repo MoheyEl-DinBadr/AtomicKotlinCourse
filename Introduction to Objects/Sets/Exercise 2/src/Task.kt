@@ -3,7 +3,14 @@ package setsExercise2
 import kotlin.random.Random
 
 fun experiment(): Int {
-  TODO()
+  var setResult = HashSet<Int>()
+  var count = 0;
+  while (setResult.size != 25) {
+    var num =  Random.nextInt(25) + 1
+    setResult.add(num)
+    count++
+  }
+  return count
 }
 
 fun main() {

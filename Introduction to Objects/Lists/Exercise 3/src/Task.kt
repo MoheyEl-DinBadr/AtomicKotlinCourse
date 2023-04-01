@@ -3,7 +3,9 @@ package listsExercise3
 import atomictest.eq
 
 fun checkAnagrams(s1: String, s2: String): Boolean {
-  TODO()
+  if (s1.length != s2. length) return false
+
+  return s1.lowercase().toSortedSet().equals(s2.lowercase().toSortedSet())
 }
 
 fun main() {

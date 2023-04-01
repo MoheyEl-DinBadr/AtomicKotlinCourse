@@ -2,7 +2,9 @@
 package summaryIExercise8
 
 fun reverseDecimal(number: Int): Int {
-  TODO()
+  var numStr = number.toString()
+  numStr = numStr.reversed()
+  return numStr.toInt()
 }
 
 fun main() {

@@ -2,7 +2,11 @@
 package summaryIExercise2
 
 fun other(s: String): String {
-  TODO()
+  var result:String = ""
+  for (i in 0..s.length-1 step 2) {
+    result += s[i]
+  }
+  return result
 }
 
 fun main() {

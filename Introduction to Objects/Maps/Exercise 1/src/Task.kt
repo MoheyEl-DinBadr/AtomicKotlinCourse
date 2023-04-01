@@ -9,7 +9,7 @@ class Contact(val name: String, val number: String) {
 }
 
 fun buildNumberToContactMap(contactList: List<Contact>): Map<String, Contact> {
-  TODO()
+  return contactList.map { it.number to it }.toMap()
 }
 
 fun main() {

@@ -18,23 +18,36 @@ class Robot(
   
 
   fun right(steps: Int) {
-    x += steps
-  x = crossBoundary(x)
+
+    if (steps > 0) {
+      x += steps
+      x = crossBoundary(x)
+    }else {
+      println("steps argument must be positive, is $steps")
+    }
   }
 
   fun left(steps: Int) {
-    x -= steps
-  x = crossBoundary(x)
+    if(steps > 0){
+      x -= steps
+      x = crossBoundary(x)
+    }else {
+      println("steps argument must be positive, is $steps")
+    }
   }
 
   fun down(steps: Int) {
-    y += steps
-  y = crossBoundary(y)
+    if (steps >0){
+      y += steps
+      y = crossBoundary(y)
+    }else println("steps argument must be positive, is $steps")
   }
 
   fun up(steps: Int) {
-    y -= steps
-  y = crossBoundary(y)
+    if (steps > 0) {
+      y -= steps
+      y = crossBoundary(y)
+    }else println("steps argument must be positive, is $steps")
   }
 
   fun getLocation(): String = "($x, $y)"

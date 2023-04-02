@@ -7,11 +7,11 @@ files:
     length: 31
     placeholder_text: // TODO
     initial_state:
-      length: 7
+      length: 56
       offset: 89
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: r5899m/of0R+ze7QlGJtcdNOe3wuFXPxw/ThqTY3uNY=
   encrypted_text: lk3JxEpUKOvddjKucMSUXMDInERr4aIRT3i6PTGGP7y+w3m7Sj/PPdkdChExbFFmpSYJROtQykOgS39UFD6ude7c8IpqO+jsbLiRIb5Z/f2+b5s/k3vXwHE92Evv5O+87pqXxczblCSlTtJwPITStMyqiuDe7xFxaVmI/pyBDKI=
   learner_created: false
@@ -19,8 +19,5 @@ files:
   visible: false
   encrypted_text: 8FpSfAOlYbc/cDlCFPrkNw==
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Fri, 24 Mar 2023 00:36:47 UTC"
+status: Unchecked
 record: -1

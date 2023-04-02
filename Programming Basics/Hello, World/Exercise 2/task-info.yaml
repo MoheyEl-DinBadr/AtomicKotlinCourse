@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 67
-    length: 40
+    length: 26
     placeholder_text: // TODO
     initial_state:
-      length: 7
+      length: 26
       offset: 67
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: 2XU/S818KU6OvQhsBkMPfk9WzquYbsWe0kvEmVKe0+58JmjWVIAvafT61YJPKFSi
   encrypted_text: WzMLgow9eqOQ1CEhzmhZ7Gu4fNvO4tujTFL5VLW2GaT3QbSxkJ7kYnNgh9qJ7n8//8sMsfNUA+e8HE+2leQhj1Ig7M7vTwvfsTjWvbU2HK4=
@@ -22,5 +22,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 23 Mar 2023 22:43:05 UTC"
+  time: "Wed, 22 Mar 2023 11:26:40 UTC"
 record: -1

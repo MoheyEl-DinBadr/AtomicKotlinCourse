@@ -2,7 +2,7 @@
 package stringTemplatesExercise2
 
 fun record(index: Int, status: String, message: String): String =
-  "$index [$status] $message\n"
+  TODO()
 
 fun main() {
   print(record(1, "OK", "Everything is fine."))

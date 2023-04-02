@@ -2,8 +2,17 @@
 package summaryIIExercise1
 import atomictest.eq
 
-// add Boring class
+class Boring {
+    fun a() = 1.618
+
+    fun b() = "ratio"
+
+    fun c() = 11
+}
 
 fun main() {
-  // test Boring
+  var boring = Boring()
+    boring.a() eq 1.618
+    boring.b() eq "ration"
+    boring.c() eq 11
 }

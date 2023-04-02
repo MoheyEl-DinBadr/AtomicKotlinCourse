@@ -3,12 +3,12 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 106
-    length: 72
+  - offset: 81
+    length: 102
     placeholder_text: TODO()
     initial_state:
-      length: 6
-      offset: 81
+      length: 72
+      offset: 106
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -22,5 +22,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Thu, 30 Mar 2023 21:54:33 UTC"
+  time: "Tue, 28 Mar 2023 14:58:08 UTC"
 record: -1

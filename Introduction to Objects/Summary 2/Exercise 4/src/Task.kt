@@ -3,11 +3,19 @@ package summaryIIExercise4
 import atomictest.capture
 import atomictest.eq
 import java.lang.IllegalArgumentException
+class Dictionary {
 
-// TODO: add Dictionary class
+    private val _translations = mutableMapOf<String, List<String>>()
+    val translations
+        get() = _translations
+    fun addTranslations(word:String, translations:String) {
+        if (this._translations.containsKey(word)) throw IllegalArgumentException("Dictionary already has translations for '$word'")
+        val translationsArr = translations.split(" ").toList();
+        this._translations[word] = translationsArr
+    }
+}
 
 fun main() {
-/*
   val dictionary = Dictionary()
   dictionary.addTranslations("apple", "Apfel")
   dictionary.addTranslations("cake", "Kuchen Torte")
@@ -18,7 +26,6 @@ fun main() {
   capture {
     dictionary.addTranslations("cake", "Törtchen")
   } eq "IllegalArgumentException: Dictionary already has translations for 'cake'"
-*/
 
   // shouldn't compile:
 //  dictionary.translations.remove("apple")

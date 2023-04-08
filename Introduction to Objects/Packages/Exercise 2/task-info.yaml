@@ -7,14 +7,14 @@ files:
 - name: src/bbb.kt
   visible: true
   placeholders:
-  - offset: 60
-    length: 54
+  - offset: 31
+    length: 7
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 31
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: dPoPWwVkn4mmIj0cvawf2mJJshn/Npu6f1tExb2ml3q+3AtEsu1VBRHiXT+sm9C8MYLfFwWXFWeEwe2VTNiFDA==
   encrypted_text: 2RbCRxOo8XhUqbi5W63uI4zMJ3B4oXsulawJaERK7E+h6zqqjnG6a1rwp3n2+ZXh
@@ -23,13 +23,13 @@ files:
   visible: true
   placeholders:
   - offset: 32
-    length: 98
+    length: 7
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 32
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: XYD8fkj9JtKLZal1m9+aCtxfimBFPhmEDXF1W/uiHk2aFPmtpgBaBEeRPmssES4Qz745FliRAZCXb7MuaQeieMtcGe/o29nDNsGACE5YpA4=
   encrypted_text: AORhu9/rISUVve6uVi/bE0gCA2Q6KofIf+RosclcJ2Z/0FPVJjSOemyhCEUkgoWY
@@ -37,7 +37,7 @@ files:
 - name: src/Task.kt
   visible: true
   placeholders:
-  - offset: 48
+  - offset: 33
     length: 7
     placeholder_text: // TODO
     initial_state:
@@ -47,20 +47,17 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: w5UoU862OSkBj+5AEwhLRQ==
-  - offset: 72
-    length: 13
+  - offset: 57
+    length: 7
     placeholder_text: // TODO
     initial_state:
       length: 7
       offset: 57
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: E/jIECiwYOL+a2CJYS0asA==
   encrypted_text: 4GI4NLaY2EgfHdd6jMSvNbTNzH5czAEs+jm/nrYyt3TUKfp9outmrbbzGPRt5zYHIyRkEI9NcAZ7OV4o+i5frofm8MBTypuFgvrGFWT9gUA=
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Sat, 01 Apr 2023 15:17:14 UTC"
 record: -1

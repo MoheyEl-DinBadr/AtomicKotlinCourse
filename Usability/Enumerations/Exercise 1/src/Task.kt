@@ -12,7 +12,10 @@ class Robot {
 
   fun go(direction: Direction, steps: Int) {
     when (direction) {
-      /* TODO */
+      UP -> y-=steps
+      DOWN -> y+=steps
+      RIGHT -> x+=steps
+      LEFT -> x-=steps
     }
   }
 

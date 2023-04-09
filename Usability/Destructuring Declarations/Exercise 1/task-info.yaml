@@ -53,7 +53,7 @@ files:
 status: Failed
 feedback:
   message: calculate() should return Triple
-  time: "Sat, 08 Apr 2023 23:37:20 UTC"
+  time: "Sat, 08 Apr 2023 23:43:58 UTC"
   expected: "kotlin.Triple<kotlin.Boolean, kotlin.Int, kotlin.Int>"
   actual: kotlin.Any
 record: -1

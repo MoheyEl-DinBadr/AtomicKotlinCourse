@@ -4,7 +4,9 @@ import atomictest.eq
 
 fun <T> List<T>.reversed(): List<T> {
   val result = mutableListOf<T>()
-  TODO()
+  for (index in indices) {
+    result.add(index, this[this.size-1-index])
+  }
   return result
 }
 

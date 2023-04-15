@@ -2,9 +2,15 @@
 package introductionToGenericsExercise1
 import atomictest.eq
 
-fun <T> List<T>.secondOrNull(): T? = TODO()
+fun <T> List<T>.secondOrNull(): T? = when {
+  this.size < 2 -> null
+  else -> this[1]
+}
 
-fun <T> List<T>.penultimateOrNull(): T? = TODO()
+fun <T> List<T>.penultimateOrNull(): T? = when {
+  this.size < 3 -> null
+  else -> this[this.size - 2]
+}
 
 fun main() {
   val ints = listOf(1, 2, 3)

@@ -15,7 +15,7 @@ data class Address(
   val city: String? = null,
   val street: String? = null)
 
-fun Client.fromMunich(): Boolean =TODO()
+fun Client.fromMunich(): Boolean = this.personalInfo?.address?.city?.equals("Munich") ?: false
 
 fun main() {
   val alice = Client("Alice",

@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 91
-    length: 7
+    length: 108
     placeholder_text: // TODO
     initial_state:
       length: 7
@@ -13,8 +13,8 @@ files:
     selected: false
     status: Unchecked
     encrypted_possible_answer: ndiPy1cp89gBsLjZuCkRr7CQJ1s2Ckot6vYePx9OZ8J9ErTdTJTzhTaPx7HhxPFupjEKIOy7BPFJXO7TQz10yFPAjv0YQXgRaNhGkqmZF1MHXQ7sGvVnmcUOuwpdxwv2JPM5zQ0QnbraklUCnHeLKQ==
-  - offset: 113
-    length: 127
+  - offset: 214
+    length: 122
     placeholder_text: |-
       /*
         val rectangle = Rectangle(1, 2)
